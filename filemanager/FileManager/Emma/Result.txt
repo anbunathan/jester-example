@@ -1,0 +1,1285 @@
+Microsoft Windows [Version 10.0.10586]
+(c) 2015 Microsoft Corporation. All rights reserved.
+
+C:\Users\Anbunathan>cd D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120
+
+C:\Users\Anbunathan>d:
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>"D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120\FileManagerEMMA.bat"
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>set root="F:\adt-bundle-windows-x86-20131030\workspace\filemanager"
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>CD /d "F:\adt-bundle-windows-x86-20131030\workspace\filemanager"
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>call android update lib-project -p ../LocalViewServer
+Updated local.properties
+Updated file F:\adt-bundle-windows-x86-20131030\workspace\LocalViewServer\proguard-project.txt
+Updated local.properties
+Updated file F:\adt-bundle-windows-x86-20131030\workspace\filemanager\proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+Buildfile: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Main...
+[gettarget] Project Target:   Android 4.4
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsObj
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsLibs
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for Main...
+[dependency] Ordered libraries:
+[dependency]
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 13 source files to F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\src\com\nexes\manager\FileManager.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 warnings
+     [echo] Instrumenting classes from F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+      [dex] input: F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar
+      [dex] Pre-Dexing F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar -> emma_device-e796b91ca6960cf4b3a40d868802a4ff.jar
+      [dex] Converting compiled files and external libraries into F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes.dex...
+       [dx] Merged dex A (60 defs/100.4KiB) with dex B (297 defs/326.8KiB). Result is 357 defs/514.2KiB. Took 0.2s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res
+   [crunch] To destination dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png: 98% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png: 94% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png: 96% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png: 91% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon64.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png: 58% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-wind
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating Main-instrumented-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Creating new property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+
+instrument:
+ [zipalign] Run cancelled: no changes to input file F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented-unaligned.apk
+     [echo] Instrumented Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+
+install:
+     [echo] Installing F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk onto default emulator or device...
+     [exec] * daemon not running. starting it now on port 5037 *
+     [exec] * daemon started successfully *
+     [exec] error: device offline
+     [exec] - waiting for device -
+
+BUILD FAILED
+F:\adt-bundle-windows-x86-20131030\sdk\tools\ant\build.xml:1409: The following error occurred while executing this line:
+F:\adt-bundle-windows-x86-20131030\sdk\tools\ant\build.xml:1423: exec returned: -1073741510
+
+Total time: 6 minutes 25 seconds
+Terminate batch job (Y/N)? y
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>adb devices
+List of devices attached
+emulator-5554   offline
+
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>adb kill-server
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>adb devices
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+List of devices attached
+emulator-5554   offline
+
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>adb devices
+List of devices attached
+emulator-5554   device
+
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>cd D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>d:
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>"D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120\FileManagerEMMA.bat"
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>set root="F:\adt-bundle-windows-x86-20131030\workspace\filemanager"
+
+D:\PHD\bharathiar\guide\conference\activity\2nd paper\simple-jester120>CD /d "F:\adt-bundle-windows-x86-20131030\workspace\filemanager"
+
+F:\adt-bundle-windows-x86-20131030\workspace\filemanager>call android update lib-project -p ../LocalViewServer
+Updated local.properties
+Updated file F:\adt-bundle-windows-x86-20131030\workspace\LocalViewServer\proguard-project.txt
+Updated local.properties
+Updated file F:\adt-bundle-windows-x86-20131030\workspace\filemanager\proguard-project.txt
+It seems that there are sub-projects. If you want to update them
+please use the --subprojects parameter.
+Buildfile: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Main...
+[gettarget] Project Target:   Android 4.4
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsObj
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsLibs
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for Main...
+[dependency] Ordered libraries:
+[dependency]
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 13 source files to F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\src\com\nexes\manager\FileManager.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 warnings
+     [echo] Instrumenting classes from F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+      [dex] input: F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar
+      [dex] Pre-Dexing F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar -> emma_device-e796b91ca6960cf4b3a40d868802a4ff.jar
+      [dex] Converting compiled files and external libraries into F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes.dex...
+       [dx] Merged dex A (60 defs/100.4KiB) with dex B (297 defs/326.8KiB). Result is 357 defs/514.2KiB. Took 0.2s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res
+   [crunch] To destination dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png: 98% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png: 94% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png: 96% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png: 91% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon64.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png: 58% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-201310
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating Main-instrumented-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Creating new property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+
+instrument:
+ [zipalign] Run cancelled: no changes to input file F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented-unaligned.apk
+     [echo] Instrumented Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+
+install:
+     [echo] Installing F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk onto default emulator or device...
+     [exec]     pkg: /data/local/tmp/Main-instrumented.apk
+     [exec] Success
+     [exec] 99 KB/s (489980 bytes in 4.792s)
+
+BUILD SUCCESSFUL
+Total time: 39 seconds
+Resolved location of main project to: F:\adt-bundle-windows-x86-20131030\workspace\filemanager
+Updated project.properties
+Updated local.properties
+Updated file F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\proguard-project.txt
+Updated ant.properties
+Buildfile: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\build.xml
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: MainTest
+  [gettype] Project Type: Test Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\gen
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-pre-clean:
+
+clean:
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+   [delete] Deleting directory F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+   [subant] No sub-builds to iterate on
+
+emma:
+
+-set-mode-check:
+
+-set-debug-files:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: MainTest
+  [gettype] Project Type: Test Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for MainTest...
+[gettarget] Project Target:   Android 4.4
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\rsObj
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\rsLibs
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\gen
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\classes
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for MainTest...
+[dependency] Ordered libraries:
+[dependency]
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'debug'...
+   [subant] No sub-builds to iterate on
+     [echo] ----------
+     [echo] Building tested project at F:\adt-bundle-windows-x86-20131030\workspace\filemanager with 'instrument'...
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: Main
+  [gettype] Project Type: Application
+
+-set-debug-mode:
+
+-debug-obfuscation-check:
+
+-pre-build:
+
+-build-setup:
+[getbuildtools] Using latest Build Tools: 19.0.0
+     [echo] Resolving Build Target for Main...
+[gettarget] Project Target:   Android 4.4
+[gettarget] API level:        19
+     [echo] ----------
+     [echo] Creating output directories if needed...
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsObj
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\rsLibs
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\gen
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [mkdir] Created dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\dexedLibs
+     [echo] ----------
+     [echo] Resolving Dependencies for Main...
+[dependency] Library dependencies:
+[dependency] No Libraries
+[dependency]
+[dependency] ------------------
+     [echo] ----------
+     [echo] Building Libraries with 'instrument'...
+   [subant] No sub-builds to iterate on
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 13 source files to F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\src\com\nexes\manager\FileManager.java uses unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] 3 warnings
+     [echo] Instrumenting classes from F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin/classes...
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+      [dex] input: F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar
+      [dex] Pre-Dexing F:\adt-bundle-windows-x86-20131030\sdk\tools\lib\emma_device.jar -> emma_device-e796b91ca6960cf4b3a40d868802a4ff.jar
+      [dex] Converting compiled files and external libraries into F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes.dex...
+       [dx] Merged dex A (60 defs/100.4KiB) with dex B (297 defs/326.8KiB). Result is 357 defs/514.2KiB. Took 0.1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res
+   [crunch] To destination dir: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\excel.png: 98% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\help.png: 94% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\icon.png: 96% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-hdpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-hdpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\icon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\ppt.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\ppt.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\processinfo.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\processinfo.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\rename.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\rename.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\search.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\search.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\setting.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\setting.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\singlecheck.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\singlecheck.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\space.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\space.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\text.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\text.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\toolbox.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\toolbox.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\warning.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\warning.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\word.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\word.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\xml32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\xml32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-ldpi\zip.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-ldpi\zip.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\appicon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\appicon.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\back.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\back.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\color.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\color.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\config32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\config32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\excel.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\excel.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\filter.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\filter.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\folder_full.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\folder_full.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\help.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\help.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\home.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\home.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\html32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\html32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon.png: 91% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\icon64.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\icon64.png: 58% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\image.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\image.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\info.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\info.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\jar32.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\jar32.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\logout.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\logout.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\more.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\more.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\movies.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\movies.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselect_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselect_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\multiselectbox_38.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\multiselectbox_38.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\music.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\music.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\newfolder.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\newfolder.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdpi\pdf.png => F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\pdf.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\res\drawable-mdpi\pdf.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\res\drawable-mdp
+
+-package-resources:
+     [aapt] Creating full resource package...
+     [aapt] Warning: AndroidManifest.xml already defines debuggable (in http://schemas.android.com/apk/res/android); using existing value in manifest.
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating Main-instrumented-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Creating new property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+
+instrument:
+ [zipalign] Run cancelled: no changes to input file F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented-unaligned.apk
+     [echo] Instrumented Package: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\build.prop
+[testedprojectclasspath] Resolved classpath:
+[testedprojectclasspath] F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\classes
+
+-code-gen:
+[mergemanifest] Merging AndroidManifest files into one.
+[mergemanifest] Manifest merger disabled. Using project manifest only.
+     [echo] Handling aidl files...
+     [aidl] No AIDL files to compile.
+     [echo] ----------
+     [echo] Handling RenderScript files...
+     [echo] ----------
+     [echo] Handling Resources...
+     [aapt] Generating resource IDs...
+     [echo] ----------
+     [echo] Handling BuildConfig class...
+[buildconfig] Generating BuildConfig class.
+
+-pre-compile:
+
+-compile:
+    [javac] Compiling 44 source files to F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\classes
+    [javac] warning: [options] source value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] target value 1.5 is obsolete and will be removed in a future release
+    [javac] warning: [options] To suppress warnings about obsolete options, use -Xlint:-options.
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] 3 warnings
+
+-post-compile:
+
+-obfuscate:
+
+-dex:
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\classes
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\libs\robotium-solo-5.5.1-javadoc.jar
+      [dex] input: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\libs\robotium-solo-5.5.1.jar
+      [dex] Pre-Dexing F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\libs\robotium-solo-5.5.1-javadoc.jar -> robotium-solo-5.5.1-javadoc-3f959aca0aa974a816f25c457fdf1b89.jar
+      [dex] Pre-Dexing F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\libs\robotium-solo-5.5.1.jar -> robotium-solo-5.5.1-2a7240168ed0cac41d578a6375811554.jar
+      [dex] Converting compiled files and external libraries into F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\classes.dex...
+       [dx] Merged dex A (47 defs/47.1KiB) with dex B (74 defs/145.8KiB). Result is 121 defs/239.2KiB. Took 0.1s
+
+-crunch:
+   [crunch] Crunching PNG Files in source dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\res
+   [crunch] To destination dir: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\res\drawable-hdpi\ic_launcher.png => F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-hdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-hdpi\ic_launcher.png: 87% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\res\drawable-ldpi\ic_launcher.png => F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-ldpi\ic_launcher.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-ldpi\ic_launcher.png: 0% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\res\drawable-mdpi\ic_launcher.png => F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-mdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-mdpi\ic_launcher.png: 78% size of source)
+   [crunch] Processing image to cache: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\res\drawable-xhdpi\ic_launcher.png => F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-xhdpi\ic_launcher.png
+   [crunch]   (processed image to cache entry F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\res\drawable-xhdpi\ic_launcher.png: 85% size of source)
+   [crunch] Crunched 4 PNG files to update cache
+
+-package-resources:
+     [aapt] Creating full resource package...
+
+-package:
+[apkbuilder] Current build type is different than previous build: forced apkbuilder run.
+[apkbuilder] Creating MainTest-debug-unaligned.apk and signing it with a debug key...
+
+-post-package:
+
+-do-debug:
+ [zipalign] Running zip align on final apk...
+     [echo] Debug Package: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\MainTest-debug.apk
+[propertyfile] Creating new property file: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\build.prop
+[propertyfile] Updating property file: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\build.prop
+
+-post-build:
+
+debug:
+
+install:
+     [echo] Installing F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\MainTest-debug.apk onto default emulator or device...
+     [exec]     pkg: /data/local/tmp/MainTest-debug.apk
+     [exec] Success
+     [exec] 75 KB/s (210846 bytes in 2.717s)
+
+-set-mode-check:
+
+-set-instrumented-mode:
+
+install:
+     [echo] Installing F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\Main-instrumented.apk onto default emulator or device...
+     [exec]     pkg: /data/local/tmp/Main-instrumented.apk
+     [exec] Success
+     [exec] 81 KB/s (489980 bytes in 5.902s)
+
+installi:
+
+-check-env:
+ [checkenv] Android SDK Tools Revision 22.3.0
+ [checkenv] Installed at F:\adt-bundle-windows-x86-20131030\sdk
+
+-setup:
+     [echo] Project Name: MainTest
+  [gettype] Project Type: Test Application
+
+-test-project-check:
+
+test:
+[getlibpath] Library dependencies:
+[getlibpath] No Libraries
+     [echo] Running tests...
+     [echo] Running tests ...
+     [exec]
+     [exec] com.nexes.manager.test.BP0Test0:....
+     [exec] com.nexes.manager.test.BP10Test0:....
+     [exec] com.nexes.manager.test.BP11Test0:...
+     [exec] com.nexes.manager.test.BP12Test0:..
+     [exec] com.nexes.manager.test.BP13Test0:....
+     [exec] com.nexes.manager.test.BP14Test0:..
+     [exec] com.nexes.manager.test.BP15Test0:....
+     [exec] com.nexes.manager.test.BP16Test0:....
+     [exec] com.nexes.manager.test.BP17Test0:....
+     [exec] com.nexes.manager.test.BP18Test0:..
+     [exec] com.nexes.manager.test.BP19Test0:.
+     [exec] com.nexes.manager.test.BP1Test0:..
+     [exec] com.nexes.manager.test.BP21Test0:.
+     [exec] com.nexes.manager.test.BP22Test0:..
+     [exec] com.nexes.manager.test.BP23Test0:.
+     [exec] com.nexes.manager.test.BP25Test0:..
+     [exec] com.nexes.manager.test.BP26Test0:....
+     [exec] com.nexes.manager.test.BP27Test0:..
+     [exec] com.nexes.manager.test.BP28Test0:....
+     [exec] com.nexes.manager.test.BP29Test0:....
+     [exec] com.nexes.manager.test.BP2Test0:....
+     [exec] com.nexes.manager.test.BP30Test0:....
+     [exec] com.nexes.manager.test.BP31Test0:....
+     [exec] com.nexes.manager.test.BP32Test0:..
+     [exec] com.nexes.manager.test.BP33Test0:..
+     [exec] com.nexes.manager.test.BP34Test0:....
+     [exec] com.nexes.manager.test.BP36Test0:..
+     [exec] com.nexes.manager.test.BP37Test0:..
+     [exec] com.nexes.manager.test.BP38Test0:..
+     [exec] com.nexes.manager.test.BP39Test0:..
+     [exec] com.nexes.manager.test.BP3Test0:.
+     [exec] com.nexes.manager.test.BP40Test0:.
+     [exec] com.nexes.manager.test.BP41Test0:..
+     [exec] com.nexes.manager.test.BP42Test0:..
+     [exec] com.nexes.manager.test.BP44Test0:..
+     [exec] com.nexes.manager.test.BP45Test0:....
+     [exec] com.nexes.manager.test.BP46Test0:..
+     [exec] com.nexes.manager.test.BP4Test0:..
+     [exec] com.nexes.manager.test.BP5Test0:..
+     [exec] com.nexes.manager.test.BP7Test0:....
+     [exec] com.nexes.manager.test.BP8Test0:..
+     [exec] com.nexes.manager.test.BP90Test0:..
+     [exec] Test results for InstrumentationTestRunner=.........................................
+     [exec] .........................................
+     [exec] ............................
+     [exec] Time: 2770.051
+     [exec]
+     [exec] OK (110 tests)
+     [exec]
+     [exec]
+     [exec] Generated code coverage data to /data/data/com.nexes.manager/coverage.ec
+     [echo] Setting permission to download the coverage file...
+     [echo] Downloading coverage file into project directory...
+     [exec] 158 KB/s (3809 bytes in 0.023s)
+     [echo] Extracting coverage report...
+     [echo] Cleaning up temporary files...
+   [delete] Deleting: F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin\coverage.ec
+   [delete] Deleting: F:\adt-bundle-windows-x86-20131030\workspace\filemanager\bin\coverage.em
+     [echo] Saving the coverage reports in F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest\bin
+
+BUILD SUCCESSFUL
+Total time: 47 minutes 13 seconds
+
+F:\adt-bundle-windows-x86-20131030\workspace\FileManagerTest>

@@ -1,0 +1,2 @@
+java -jar simple-jester.jar -buildCommand "filemanager-build1.bat" -source C:/VTEWS2/filemanager/src/com/nexes/manager -mutations mutations1.cfg -ignore ignorelist.cfg -config jester.cfg -shouldShowProgressDialog true 
+python makeWebView.py -s -z

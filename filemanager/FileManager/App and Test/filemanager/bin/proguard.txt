@@ -1,0 +1,24 @@
+# view AndroidManifest.xml #generated:32
+-keep class com.nexes.manager.ApplicationBackup { <init>(...); }
+
+# view AndroidManifest.xml #generated:48
+-keep class com.nexes.manager.AudioPlayblack { <init>(...); }
+
+# view AndroidManifest.xml #generated:52
+-keep class com.nexes.manager.DirectoryInfo { <init>(...); }
+
+# view AndroidManifest.xml #generated:61
+-keep class com.nexes.manager.HelpManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.nexes.manager.Main { <init>(...); }
+
+# view AndroidManifest.xml #generated:30
+-keep class com.nexes.manager.ProcessManager { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.nexes.manager.Settings { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.nexes.manager.WirelessManager { <init>(...); }
+

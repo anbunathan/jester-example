@@ -1,0 +1,20 @@
+[EMMA v2.0.5312 report, generated Sun Dec 11 15:08:23 IST 2016]
+-------------------------------------------------------------------------------
+OVERALL COVERAGE SUMMARY:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+75%  (39/52)!	73%  (173/237)	58%  (5132/8909)!	57%  (953.7/1662)!	all classes
+
+OVERALL STATS SUMMARY:
+
+total packages:	1
+total classes:	52
+total methods:	237
+total executable files:	11
+total executable lines:	1662
+
+COVERAGE BREAKDOWN BY PACKAGE:
+
+[class, %]	[method, %]	[block, %]	[line, %]	[name]
+75%  (39/52)!	73%  (173/237)	58%  (5132/8909)!	57%  (953.7/1662)!	com.nexes.manager
+-------------------------------------------------------------------------------
